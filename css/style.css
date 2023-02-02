@@ -1,0 +1,245 @@
+.body{
+   font-family: 'Poppins', sans-serif;
+   font-size: 14px;
+   line-height: 1.5;
+   color: #000000;
+   font-weight: 500;
+}
+.wrapper{
+   max-width: 1470px;
+   margin: 0 auto;
+   background-color: #F7F9FE;
+   display: flex;
+   gap: 71px;
+   justify-content: flex-end;
+   flex-direction: row-reverse;
+}
+.main{
+   width: 100%;
+   padding: 41px 95px 258px 0;
+}
+.main__title{
+   font-size: 24px;
+   margin-bottom: 51px;
+}
+.card{
+   background-color: #fff;
+   padding: 30px 38px 40px;
+}
+.card__header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-bottom: 40px;
+}
+.card__title{
+   font-weight: 600;
+   font-size: 22px;
+   letter-spacing: -0.01em;
+   color: #000000;
+   margin-bottom: 7px;
+}
+.card__subtitle{
+   font-weight: 400;
+   letter-spacing: -0.01em;
+   color: #16C098;
+}
+.card__form{
+   display: inline-flex;
+   padding: 7px 8px;
+   gap: 8px;
+   width: 216px;
+   height: 38px;
+   background: #F9FBFF;
+   border-radius: 10px;
+}
+.table{
+   width: 100%;
+   border-collapse: collapse;
+}
+/*.table__thead{
+   position: relative;
+}
+.table__thead::after{
+   content: '';
+   position: absolute;
+   border-bottom: 1px solid #EEEEEE;
+   width: 100%;
+   left: 0;
+   right: 0;
+}*/
+.table__header{
+   font-weight: 500;
+   letter-spacing: -0.01em;
+   color: #B5B7C0;
+   padding-bottom: 14px;
+   text-align: inherit;
+}
+.table__allinformation{
+   position: relative;
+   padding: 20px 0;
+}
+th, td {
+   border-bottom: 1px solid #ddd;
+}
+tr:hover {background-color: #f5f5f5;}
+.table__header-center{
+   padding-left: 17px;
+}
+.table__phone,
+.table__email{
+   color: inherit;
+}
+.table__button{
+   width: 84px;
+   border-radius: 4px;
+   padding: 4px 18px;
+}
+.table__button--active{
+   background: rgba(22, 192, 152, 0.38);
+   border: 1px solid #00B087;
+   color:#FFF;
+}
+.table__button--inactive{
+   background: #FFC5C5;
+   border: 1px solid #DF0404;
+   color: #DF0404;
+}
+.card-footer{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 32px;
+}
+.card-footer__description-text{
+   letter-spacing: -0.01em;
+   color: #B5B7C0;
+}
+.pagination{
+   display: flex;
+   gap: 12px;
+}
+.pagination li{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 25px;
+   height: 24px;
+   font-size: 12px;
+   background: #F5F5F5;
+   border: 1px solid #EEEEEE;
+   border-radius: 4px;
+}
+.pagination li.active{
+   background: #5932EA;
+   border: 1px solid #5932EA;
+   color: #fff;
+}
+/* ASIDE */
+.aside{
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+   width: 306px;
+   padding: 36px 61px 78px 28px;
+   background-color: #fff;
+}
+
+.aside__header{
+   display: flex;
+   align-items: center;
+   margin-bottom: 65px;
+}
+.aside__header-logo{
+   margin-right: 8px;
+}
+.aside__header-title{
+   font-weight: 600;
+   font-size: 26px;
+   line-height: 1.5;
+   letter-spacing: 0.01em;
+   margin-right: 4px;
+}
+.aside__header-version{
+   font-weight: 500;
+   font-size: 10px;
+   line-height: 1.5;
+   letter-spacing: -0.01em;
+   color: #838383;
+   margin-top: 7px;
+}
+.aside__main-link{
+   display: flex;
+   align-items: center;
+   margin-bottom: 17px;
+   padding: 11px;
+}
+.aside__main-item.aside__main-item--active{
+   background-color: #5932EA;
+   border-radius: 8px;
+}
+.aside__main-item.aside__main-item--active .aside__main-link-img path{
+   stroke: #fff;
+}
+.aside__main-item.aside__main-item--active .aside__main-link-text{
+   color: #fff;
+}
+.aside__main-item.aside__main-item--active .aside__main-link-error path{
+   stroke: #fff;
+}
+.aside__main-link-text{
+   font-weight: 500;
+   letter-spacing: -0.01em;
+   color: #9197B3;
+   margin-left: 14px;
+}
+.aside__main-link-error{
+   margin-left: auto;
+}
+.aside-footer{
+   display: flex;
+   gap: 12px;
+   margin-top: auto;
+}
+.aside-footer__avatar-link{
+   display: block;
+   width: 42px;
+   height: 42px;
+}
+.aside-footer__avatar-img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   border-radius: 50%;
+}
+.aside-footer__name{
+   font-weight: 500;
+   letter-spacing: 0.01em;
+   color: #000000;
+}
+.aside-footer__proffession{
+   font-weight: 400;
+   font-size: 12px;
+   letter-spacing: 0.01em;
+   color: #757575;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
